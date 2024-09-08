@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main {
+    width: 274px;
+    height: 449px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 10px 10px 20px 0px #090707f5;
+}
+
+img {
+    width: 100%;
+    height: 60%;
+    padding: 12px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.main h2 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 19px;
+    margin-left: 17px;
+    margin-bottom: 10px;
+}
+
+.main p {
+    color: hsl(215, 30%, 46%);
+    margin-left: 17px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    padding-right: 17px;
+}
+
+.main .par-1 h3 {
+    margin-left: 32px;
+    margin-top: 12px;
+    color: hsl(178, 86%, 49%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    padding-right: 17px;
+}
+
+.main .par-1 img {
+    width: 39px;
+    height: 40px;
+    position: relative;
+    left: 5px;
+    top: -29px;
+    padding-right: 17px;
+}
+
+.main .par-2 img {
+    width: 43px;
+    height: 40px;
+    position: relative;
+    left: 157px;
+    top: -77px;
+    padding-right: 17px;
+}
+
+.main .par-2 p {
+    position: relative;
+    left: 172px;
+    top: -115px;
+    font-size: 14px;
+    padding-right: 17px;
+}
+
+.main .par-2 hr {
+    position: relative;
+    top: -117px;
+    margin-left: 18px;
+    margin-right: 17px;
+    margin-top: 13px;
+    height: 0.1px;
+    border: none;
+    background-color: hsl(215, 30%, 46%);
+}
+
+.main .par-3 img {
+    width: 62px;
+    height: 55px;
+    position: relative;
+    left: 2px;
+    top: -113px;
+    ;
+}
+
+.main .par-3 p {
+    position: relative;
+    left: 45px;
+    top: -158px;
+    word-spacing: 1px;
+}
+
+.main .par-3 p span {
+    color: hsl(0, 0%, 100%);
+    word-spacing: 1px;
+}
+
+@media (min-width:414px) and (max-width:896px) {
+    .main {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-30%, -25%);
+    }
+}
